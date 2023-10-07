@@ -1,0 +1,213 @@
+:root {
+  /* Primary color */
+
+  --clr-primary-400: hsl(158, 36%, 37%);
+  --clr-primary-800: hsl(156.32deg 42.22% 17.65%);
+  --clr-primary-200: hsl(30, 38%, 92%);
+
+  /* Neutral color */
+  --clr-neutral-900: hsl(212, 21%, 14%);
+  --clr-neutral-600: hsl(228, 12%, 48%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  /* Font family */
+  --ff-base: "Montserrat", sans-serif;
+  --ff-accent: "Fraunces", serif;
+
+  /* Font weight */
+  --fw-regular: 500;
+  --fw-bold: 700;
+}
+
+/* Reset */
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: var(--clr-primary-200);
+  color: var(--clr-neutral-600);
+  font-family: var(--ff-base);
+  font-size: 1rem;
+  display: grid;
+  place-content: center;
+  margin: 2rem 1rem;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Product card */
+.product-card {
+  background-color: var(--clr-neutral-100);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+/* Product content */
+.product-card__content {
+  padding: 1rem 1rem 1.5rem;
+}
+.product-card__content p.product-card__category {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.product-card__content .product-card__title {
+  padding: 0.6rem 0px 1rem;
+}
+.product-card__content .product-card__title h1 {
+  font-family: var(--ff-accent);
+  line-height: 35px;
+  font-size: 2.1rem;
+  color: var(--clr-neutral-900);
+}
+.product-card__content .product-card__description {
+  margin-bottom: 1.2rem;
+}
+.product-card__content .product-card__description p {
+  font-size: 0.9rem;
+}
+.product-card__content .product-card__pricing {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.product-card__content .product-card__pricing .product-card__sale__price {
+  padding-right: 1rem;
+}
+.product-card__content .product-card__pricing .product-card__sale__price span {
+  font-family: var(--ff-accent);
+  font-weight: var(--fw-bold);
+  font-size: 2rem;
+  display: inline-block;
+  color: var(--clr-primary-400);
+}
+.product-card__content
+  .product-card__pricing
+  .product-card__original-price
+  span {
+  font-size: 0.99rem;
+  text-decoration: line-through;
+  color: var(--clr-neutral-600);
+}
+
+/* Add to cart button */
+.product-card__addtocard a {
+  background-color: var(--clr-primary-400);
+  color: var(--clr-neutral-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.32rem;
+  padding: 0.6rem 0px;
+  text-decoration: none;
+  font-weight: var(--fw-regular);
+  font-size: 1.1rem;
+}
+.product-card__addtocard a svg {
+  margin-right: 1rem;
+}
+.product-card__addtocard a:is(:hover, :focus) {
+  background-color: var(--clr-primary-800);
+  transition: 0.5s all linear;
+}
+/* Credit */
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 600px) {
+    .product-card {
+        max-width: 600px;
+    }
+  .product-card__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .product-card__content {
+    padding: 1.5rem 1.6rem;
+  }
+}
