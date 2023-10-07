@@ -19,7 +19,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![/assets/images/](./screenshot.png)
+![Product Card Component](/assets/images/screenshot.png)
 
 ### Links
 
