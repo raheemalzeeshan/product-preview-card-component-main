@@ -17,19 +17,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
-
 ### Screenshot
 
-![assets/images/](./screenshot.png)
+![/assets/images/](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Product Card Component](https://www.frontendmentor.io/solutions/responsive-product-card-component-0fS88nD63a)
+- Live Site URL: [Product Card Component](https://developerqna-product-card-component.netlify.app/)
 
 ## My process
 
@@ -50,5 +45,5 @@ Users should be able to:
 
 - Portfolio Website - [Mohammed Abdul Raheem](https://raheemalzeeshan.netlify.app/)
 - Frontend Mentor - [@raheemalzeeshan](https://www.frontendmentor.io/profile/raheemalzeeshan)
-- Linkedin - [@linkedin](https://www.linkedin.com/in/raheemalzeeshan/)
+- Linkedin - [@Mohammed Abdul Raheem](https://www.linkedin.com/in/raheemalzeeshan/)
 - Blog - [@Developerqna](http://developerqna.com/)
