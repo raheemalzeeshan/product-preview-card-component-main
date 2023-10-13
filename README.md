@@ -9,6 +9,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
+  - [Built with](#built-with)
+  - [Shopify](#shopify-section)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -35,6 +37,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### Shopify Section
+I have also transformed the product card component into a Shopify section utilizing Shopify Liquid. [Get Shopify Version](http://developerqna.com/)
 
 ### Useful resources
 
