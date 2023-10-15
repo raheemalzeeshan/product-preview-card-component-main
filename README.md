@@ -39,7 +39,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Mobile-first workflow
 
 ### Shopify Section
-I have also transformed the product card component into a Shopify section utilizing Shopify Liquid. [Get Shopify Version](http://developerqna.com/)
+I have also transformed the product card component into a Shopify section utilizing Shopify Liquid. [Get Shopify Version](https://www.developerqna.com/2023/10/product-card-frontend-mentor.html)
 
 ### Useful resources
 
